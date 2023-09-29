@@ -7,5 +7,6 @@ class Selection119 {
         int number = input19.nextInt();
         String Equals = number % 2 == 0?"Number "+number+" is even number" : "Number "+number+" is odd number";
         System.out.print(Equals);
+        
     }
 }

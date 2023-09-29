@@ -15,5 +15,6 @@ public class Selection219 {
         float total = (finalExam*0.4F) + (midExam*0.3F) + (quiz*0.1F) + (assignment*0.2F);
         String message = total < 65 ? "Retake" : "Pass";
         System.out.println("Final Grade = " + total + "and the decission is " + message);
+        
     }
 }
